@@ -1,3 +1,3 @@
 #!/bin/sh
 
-find $1 -name '*.hoon' -exec ./doccords.py -v {} \;
+find $1 -name '*.hoon' -exec ./extract.py -v {} \;
